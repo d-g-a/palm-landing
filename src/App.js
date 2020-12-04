@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Title from './components/Title'
+import Button from './components/Button'
+import Cita from './components/Cita'
+import Extracto from './components/Extracto'
+import Libro from './components/Libro'
+import Ligas from './components/Ligas'
+import Newsletter from './components/Newsletter'
+import Postalgia from './components/Postalgia'
+import Sinopsis from './components/Sinopsis'
+import styled from 'styled-components'
+
+const AppStyled = styled.div`
+padding: 40px;
+background-color: black;
+height: 100vh;
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppStyled>
+        <Title/>
+        <Button/>
+        <Cita/>
+        <Extracto/>
+        <Libro/>
+        <Newsletter/>
+        <Ligas/>
+        <Postalgia/>
+        <Sinopsis/>
+    </AppStyled>
   );
 }
 
