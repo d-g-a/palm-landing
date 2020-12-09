@@ -16,10 +16,6 @@ grid-row: 3/span 4;
     grid-row: 3/span 5;
 }
 
-@media(max-width:900px){
-    color: blue;
-}
-
 @media(max-width:750px){
 
 

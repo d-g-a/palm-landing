@@ -24,7 +24,6 @@ background-color: black;
     padding: 40px 720px;
 }
 
-
 @media(min-width:1440px){
     padding: 40px 560px;
 }
@@ -43,9 +42,7 @@ background-color: black;
       .extracto,
       .libro,
       .sinopsis,
-      .postalgia{
-          margin-bottom: 40px;
-      }
+      .postalgia,
       .cita,
       .ligas{
           margin-bottom: 40px;
