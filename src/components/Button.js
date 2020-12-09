@@ -43,7 +43,6 @@ grid-row: 1/span 1;
 
 @media(max-width: 750px){
     margin-bottom: 40px;
-      
 }
 
 `

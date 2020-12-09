@@ -22,8 +22,8 @@ h4{
 @media(max-width:900px){
     
 }
-@media(max-width:750px){
-    
+@media(max-width: 750px){
+    margin-bottom: 40px;
 }
 
 `

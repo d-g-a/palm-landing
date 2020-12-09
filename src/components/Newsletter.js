@@ -52,6 +52,7 @@ form{
 }
 
 @media(max-width:750px){
+    margin-bottom: 40px;
     
     p{
         font-size: 24px;

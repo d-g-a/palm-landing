@@ -16,9 +16,8 @@ grid-row: 3/span 4;
     grid-row: 3/span 5;
 }
 
-@media(max-width:750px){
-
-
+@media(max-width: 750px){
+    margin-bottom: 40px;
 }
 `
 function Libro() {

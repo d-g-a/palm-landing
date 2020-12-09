@@ -21,6 +21,10 @@ p{
         }
 
 }
+
+@media(max-width: 750px){
+    margin-bottom: 40px;
+}
 `
 
 function Extracto() {
