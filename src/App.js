@@ -25,7 +25,7 @@ background-color: black;
 }
 
 @media(min-width:1440px){
-    padding: 40px 560px;
+    padding: 40px 800px;
 }
 
 @media(min-width:1024px){
@@ -48,7 +48,6 @@ background-color: black;
           margin-bottom: 40px;
       }
   }
-    
 }
 
 `
