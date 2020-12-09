@@ -43,7 +43,9 @@ background-color: black;
       .extracto,
       .libro,
       .sinopsis,
-      .postalgia,
+      .postalgia{
+          margin-bottom: 40px;
+      }
       .cita,
       .ligas{
           margin-bottom: 40px;
