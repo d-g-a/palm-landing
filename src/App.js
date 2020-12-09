@@ -12,21 +12,42 @@ import styled from 'styled-components'
 const AppStyled = styled.div`
 padding: 40px;
 background-color: black;
-height: 100vh;
+
+.body{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(10,100px);
+}
+
+@media(max-width:750px){
+  
+  .body{
+      display: flex;
+      flex-direction: column;
+  }
+    
+}
+
 `
 
 function App() {
   return (
     <AppStyled>
-        <Title/>
-        <Button/>
-        <Cita/>
-        <Extracto/>
-        <Libro/>
-        <Newsletter/>
-        <Ligas/>
-        <Postalgia/>
-        <Sinopsis/>
+        <div className="title">
+            <Title/>  
+        </div>
+        <div className="body" >
+            <Button className="button"/>
+            <Newsletter className="newsletter"/>
+            <Extracto className="extracto"/>
+            <Libro className="libro"/>
+            <Sinopsis className="sinopsis"/>
+            <Postalgia className="postalgia"/>
+            <Cita className="cita"/>
+            <Ligas className="ligas"/>
+        </div>
+       
     </AppStyled>
   );
 }
