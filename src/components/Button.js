@@ -34,6 +34,13 @@ grid-row: 1/span 1;
     }
 }
 
+@media(max-width:780px){
+    padding:16px;
+    a{
+        font-size:20px;
+        }
+}
+
 `
 
 function Button() {

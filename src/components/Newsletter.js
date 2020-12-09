@@ -57,6 +57,44 @@ form{
         font-size: 24px;
     }
 }
+
+@media(max-width:500px){
+
+    form{
+
+        padding: 8px;
+
+      input{
+          width: 200px;
+          &::placeholder{
+              font-size: 12px;
+          }
+      }
+
+      button{
+          font-size:12px;
+      }
+    }
+
+}
+
+@media(max-width: 410px){
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        input{
+            margin-right: 0;
+            margin-bottom: 8px;
+        }
+
+        button{ 
+            width: 200px;
+        }
+    }
+}
 `
 
 function Newsletter() {

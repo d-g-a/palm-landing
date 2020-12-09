@@ -11,6 +11,11 @@ grid-row: 3/span 4;
     object-fit: cover;
     border-radius: 15px;
 }
+
+@media(min-width:1440px){
+    grid-row: 3/span 5;
+}
+
 @media(max-width:900px){
     color: blue;
 }

@@ -50,6 +50,16 @@ p{
         font-size: 14px;
     } 
 }
+
+@media(max-width:410px){
+
+    h1{
+        font-size:22px;
+    }
+    p{
+        font-size:12px;
+    }
+}
 `
 
 function Title() {

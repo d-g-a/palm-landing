@@ -36,7 +36,13 @@ p{
     width: 24px;
 }
 
+@media(min-width:1440px){
+    grid-row : 10/span 1;
+}
+
 @media(max-width:900px){
+
+}
     
 @media(max-width:750px){
 }

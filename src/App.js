@@ -20,11 +20,25 @@ background-color: black;
     grid-template-rows: repeat(10,100px);
 }
 
+@media(min-width:2560px){
+    padding: 40px 720px;
+}
+
+
+@media(min-width:1440px){
+    padding: 40px 560px;
+}
+
+@media(min-width:1024px){
+    padding: 40px 80px;
+}
+
 @media(max-width:750px){
   
   .body{
       display: flex;
       flex-direction: column;
+      margin-bottom: 40px;
   }
     
 }
