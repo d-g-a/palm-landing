@@ -38,7 +38,16 @@ background-color: black;
   .body{
       display: flex;
       flex-direction: column;
-      margin-bottom: 80px;
+      .button,
+      .newsletter,
+      .extracto,
+      .libro,
+      .sinopsis,
+      .postalgia,
+      .cita,
+      .ligas{
+          margin-bottom: 40px;
+      }
   }
     
 }

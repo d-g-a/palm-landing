@@ -42,9 +42,10 @@ p{
 }
 
 @media(max-width:480px){
-    height: 64px;
+    padding: 20px;
+    height: 160px;
     h1{
-    font-size: 24px;
+    font-size: 48px;
     }
     p{
         font-size: 14px;
@@ -52,9 +53,10 @@ p{
 }
 
 @media(max-width:410px){
-
+    padding: 18px;
+    height: 120px;
     h1{
-        font-size:22px;
+        font-size:40px;
     }
     p{
         font-size:12px;
