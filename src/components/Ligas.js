@@ -32,6 +32,10 @@ p{
     font-size: 16px;
 }
 
+.disclaimer{
+    font-size: 12px;
+}
+
 .instagram{
     width: 24px;
 }
@@ -58,9 +62,10 @@ function Ligas() {
                 target="_blank"
                 rel="noreferrer"
                 >
-                    Disponible en Amazon
+                    Disponible en Amazon  (Pasta Blanda y Kindle)
                 </a>
-            <p>Pasta Blanda y Kindle</p>
+
+            <p className="disclaimer">Para pedir la versión en pasta blanda asegúrate de <br/>hacer la compra desde Amazon Estados Unidos.</p>
 
             </div>
             <a href="https://www.instagram.com/promesasalamuerte/"
