@@ -7,6 +7,7 @@ import Ligas from './components/Ligas'
 import Newsletter from './components/Newsletter'
 import Postalgia from './components/Postalgia'
 import Sinopsis from './components/Sinopsis'
+import ReactPlayer from 'react-player'
 import styled from 'styled-components'
 
 const AppStyled = styled.div`
@@ -67,6 +68,14 @@ function App() {
             <Postalgia className="postalgia"/>
             <Cita className="cita"/>
             <Ligas className="ligas"/>
+            <ReactPlayer
+            className="player"
+            url='https://res.cloudinary.com/dieglitter/video/upload/v1607537173/taby/WhatsApp_Video_2020-11-25_at_12.29.04_ogb6lf.mp4'
+            playing="true" 
+            loop="true"
+            controls="true"
+            volume="0.5"
+            />
         </div>
        
     </AppStyled>
