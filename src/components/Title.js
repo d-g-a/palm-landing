@@ -53,13 +53,13 @@ p{
 }
 
 @media(max-width:410px){
-    padding: 18px;
+    padding: 16px;
     height: 120px;
     h1{
         font-size:40px;
     }
     p{
-        font-size:12px;
+        font-size:14px;
     }
 }
 `
