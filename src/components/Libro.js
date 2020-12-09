@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const LibroStyled = styled.div`
 color: white;
-background-color: burlywood;
 grid-row: 3/span 4;
 
 .libro{
@@ -14,6 +13,11 @@ grid-row: 3/span 4;
 }
 @media(max-width:900px){
     color: blue;
+}
+
+@media(max-width:750px){
+
+
 }
 `
 function Libro() {

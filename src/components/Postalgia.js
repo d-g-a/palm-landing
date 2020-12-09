@@ -15,8 +15,12 @@ h4{
     font-size:24px;
 }
 @media(max-width:900px){
-    color: blue;
+    
 }
+@media(max-width:750px){
+    
+}
+
 `
 
 function Postalgia() {

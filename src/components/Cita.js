@@ -21,7 +21,10 @@ p{
 }
 
 @media(max-width:900px){
-    color: blue;
+    
+}
+@media(max-width:750px){
+    
 }
 
 `

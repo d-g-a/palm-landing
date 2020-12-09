@@ -29,7 +29,26 @@ p{
 }
 
 @media(max-width:900px){
-    color: blue;
+}
+
+@media(max-width:750px){
+    height: 80px;
+    h1{
+    font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+    }   
+}
+
+@media(max-width:480px){
+    height: 64px;
+    h1{
+    font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    } 
 }
 `
 

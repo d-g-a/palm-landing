@@ -23,8 +23,8 @@ p{
      }
 }
 
-@media(max-width:780px){
-    color:red;
+@media(max-width:750px){
+   
 }
 `
 

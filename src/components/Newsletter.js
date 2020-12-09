@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456328/taby/palm_2_1_n5kjrc.jpg");
+background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607492757/taby/PosterVenta_6_aivwfr.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -48,7 +48,14 @@ form{
 }
 
 @media(max-width:900px){
-    color: blue;
+    
+}
+
+@media(max-width:750px){
+    
+    p{
+        font-size: 24px;
+    }
 }
 `
 
