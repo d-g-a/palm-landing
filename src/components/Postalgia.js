@@ -14,9 +14,18 @@ grid-row: 7/span 2;
 h4{
     font-size:24px;
 }
+p{
+    font-size: 17px;
+}
 
 @media(min-width:1440px){
     grid-row: 8/span 2;
+    h4{
+        font-size: 32px;
+    }
+    p{
+        font-size: 20px;
+    }
 }
 
 @media(max-width:900px){
