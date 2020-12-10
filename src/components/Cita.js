@@ -21,7 +21,7 @@ p{
 }
 
 @media(min-width:1440px){
-    grid-row: 11/span 1;
+    grid-row: 11/span 2;
 }
 
 @media(max-width:900px){

@@ -7,16 +7,15 @@ background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v16074
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-border-top-right-radius: 15px;
-border-top-left-radius: 15px;
-grid-row:5/span 1;
+border-radius: 15px;
+grid-row:5/span 3;
 
 @media(min-width:1440px){
-    grid-row: 5/span 1;
+    grid-row: 5/span 3;
 }
 
 @media(max-width:900px){
-    
+
 }
 
 @media(max-width: 750px){
