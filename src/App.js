@@ -7,8 +7,8 @@ import Ligas from './components/Ligas'
 import Newsletter from './components/Newsletter'
 import Postalgia from './components/Postalgia'
 import Sinopsis from './components/Sinopsis'
-import ReactPlayer from 'react-player'
 import styled from 'styled-components'
+import Video from './Video'
 
 const AppStyled = styled.div`
 padding: 40px;
@@ -63,34 +63,8 @@ function App() {
             <Postalgia className="postalgia"/>
             <Cita className="cita"/>
             <Ligas className="ligas"/>
-            <ReactPlayer
-                className="player"
-                style={{
-                    gridRow:"11/span1"
-                }}
-                width="inherit"
-                url='https://res.cloudinary.com/dieglitter/video/upload/v1607567694/taby/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4'
-                playing="false" 
-                loop="true"
-                muted="true"
-                controls="true"
-                volume="0.5"
-                />
-                <ReactPlayer
-                className="player"
-                style={{
-                    gridRow:"10/span1"
-                }}
-                width="inherit"
-                url='https://res.cloudinary.com/dieglitter/video/upload/v1607566370/taby/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1.mp4'
-                playing="false" 
-                loop="true"
-                muted="true"
-                controls="true"
-                volume="0.5"
-                />
-
-           
+            <Video url="https://res.cloudinary.com/dieglitter/video/upload/v1607567694/taby/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4"/>
+            <Video url="https://res.cloudinary.com/dieglitter/video/upload/v1607566370/taby/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1.mp4"/>   
         </div>
        
     </AppStyled>
