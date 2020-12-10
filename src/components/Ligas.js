@@ -16,6 +16,10 @@ background-position: center;
 background-size: cover;
 grid-row: 9/span 1;
 
+.links{
+    width:75%;
+}
+
 a{
     color: black;
     text-decoration: underline;
@@ -29,7 +33,7 @@ a{
 }
 
 p{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .disclaimer{
@@ -40,8 +44,8 @@ p{
     width: 24px;
 }
 
-@media(min-width:1440px){
-    grid-row : 10/span 1;
+@media(min-width:1440px) {
+    grid-row: 10/span 1;
 }
 
 @media(max-width:900px){
@@ -62,10 +66,10 @@ function Ligas() {
                 target="_blank"
                 rel="noreferrer"
                 >
-                    Disponible en Amazon  (Pasta Blanda y Kindle)
+                    Disponible en Amazon (Pasta Blanda y Kindle)
                 </a>
 
-            <p className="disclaimer">Para pedir la versión en pasta blanda asegúrate de <br/>hacer la compra desde Amazon Estados Unidos.</p>
+            <p className="disclaimer">Para pedir la versión en pasta blanda asegúrate de hacer la compra desde Amazon Estados Unidos.</p>
 
             </div>
             <a href="https://www.instagram.com/promesasalamuerte/"

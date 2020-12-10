@@ -13,6 +13,9 @@ import styled from 'styled-components'
 const AppStyled = styled.div`
 padding: 40px;
 background-color: black;
+display: flex;
+flex-direction: column;
+
 
 .body{
     display: grid;
@@ -20,6 +23,8 @@ background-color: black;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(10,100px);
 }
+
+
 
 @media(min-width:2560px){
     padding: 40px 720px;
@@ -38,16 +43,6 @@ background-color: black;
   .body{
       display: flex;
       flex-direction: column;
-      .button,
-      .newsletter,
-      .extracto,
-      .libro,
-      .sinopsis,
-      .postalgia,
-      .cita,
-      .ligas{
-          margin-bottom: 40px;
-      }
   }
 }
 
@@ -69,13 +64,33 @@ function App() {
             <Cita className="cita"/>
             <Ligas className="ligas"/>
             <ReactPlayer
-            className="player"
-            url='https://res.cloudinary.com/dieglitter/video/upload/v1607537173/taby/WhatsApp_Video_2020-11-25_at_12.29.04_ogb6lf.mp4'
-            playing="true" 
-            loop="true"
-            controls="true"
-            volume="0.5"
-            />
+                className="player"
+                style={{
+                    gridRow:"11/span1"
+                }}
+                width="inherit"
+                url='https://res.cloudinary.com/dieglitter/video/upload/v1607567694/taby/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4'
+                playing="false" 
+                loop="true"
+                muted="true"
+                controls="true"
+                volume="0.5"
+                />
+                <ReactPlayer
+                className="player"
+                style={{
+                    gridRow:"10/span1"
+                }}
+                width="inherit"
+                url='https://res.cloudinary.com/dieglitter/video/upload/v1607566370/taby/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1.mp4'
+                playing="false" 
+                loop="true"
+                muted="true"
+                controls="true"
+                volume="0.5"
+                />
+
+           
         </div>
        
     </AppStyled>
