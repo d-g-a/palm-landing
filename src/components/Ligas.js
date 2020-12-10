@@ -14,7 +14,7 @@ background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v16074
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-grid-row: 9/span 1;
+grid-row: 13/span 1;
 
 .links{
     width:75%;
@@ -44,8 +44,8 @@ p{
     width: 24px;
 }
 
-@media(min-width:1440px) {
-    grid-row: 10/span 1;
+@media(min-width:1440px){
+    grid-row: 13/span 1;
 }
 
 @media(max-width:900px){

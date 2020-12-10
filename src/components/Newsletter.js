@@ -106,6 +106,7 @@ function Newsletter() {
                 <input  type="email"  id="mce-EMAIL" placeholder="DESCARGA LA PRIMERA PARTE" required/>
                 <button type="submit" id="mc-embedded-subscribe" value="Subscribe"  name="subscribe">SUSCRÍBETE</button>
             </form>
+            
         </NewsletterStyled>
     )
 }

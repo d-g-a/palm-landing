@@ -9,13 +9,24 @@ background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v16074
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-grid-row: 5/span 4;
+grid-row: 8/span 4;
 
 p{
-    font-size: 16px;
+    font-size: 20px;
 }
 
-@media(max-width:900px){
+@media(min-width:1440px){
+    grid-row: 8/span 3;
+}
+
+@media(max-width:1180px){
+    p{
+        font-size: 18px;  
+        }
+
+}
+
+@media(max-width:940px){
  padding:16px;
  
  p{

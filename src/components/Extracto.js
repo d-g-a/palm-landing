@@ -11,7 +11,14 @@ background-position: center;
 background-size: cover;
 grid-row: 2/span 3;
 p{
-    font-size: 18px;
+    font-size: 20px;
+}
+
+@media(max-width:1180px){
+    p{
+        font-size: 18px;  
+        }
+
 }
 
 @media(max-width:900px){

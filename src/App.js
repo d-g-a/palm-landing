@@ -8,7 +8,8 @@ import Newsletter from './components/Newsletter'
 import Postalgia from './components/Postalgia'
 import Sinopsis from './components/Sinopsis'
 import styled from 'styled-components'
-import Video from './Video'
+import Video from './components/Video'
+import VideoDos from './components/VideoDos'
 
 const AppStyled = styled.div`
 padding: 40px;
@@ -59,12 +60,12 @@ function App() {
             <Newsletter className="newsletter"/>
             <Extracto className="extracto"/>
             <Libro className="libro"/>
+            <Video url="https://res.cloudinary.com/dieglitter/video/upload/v1607567694/taby/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4"/>
             <Sinopsis className="sinopsis"/>
             <Postalgia className="postalgia"/>
             <Cita className="cita"/>
-            <Ligas className="ligas"/>
-            <Video url="https://res.cloudinary.com/dieglitter/video/upload/v1607567694/taby/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4"/>
-            <Video url="https://res.cloudinary.com/dieglitter/video/upload/v1607566370/taby/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1.mp4"/>   
+            <VideoDos url="https://res.cloudinary.com/dieglitter/video/upload/v1607566370/taby/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1.mp4"/> 
+            <Ligas className="ligas"/>  
         </div>
        
     </AppStyled>

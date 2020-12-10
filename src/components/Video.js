@@ -3,12 +3,20 @@ import styled from 'styled-components'
 import ReactPlayer from 'react-player'
 
 const VideoStyled = styled.div`
-.player{
-    grid-row:11/span 1;
-}
+background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456331/taby/palm_2_2_uhksr1.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+grid-row:5/span 1;
 
 @media(min-width:1440px){
-    grid-row: 12/span 1;
+    grid-row: 5/span 1;
+}
+
+@media(max-width: 750px){
+    border-radius: 15px;
 }
 `
 

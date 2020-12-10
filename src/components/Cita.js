@@ -13,11 +13,15 @@ background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v16074
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-grid-row: 9/span 2;
+grid-row: 11/span 2;
 
 p{
     font-size: 32px;
     font-weight: bold; 
+}
+
+@media(min-width:1440px){
+    grid-row: 11/span 2;
 }
 
 @media(max-width:900px){
