@@ -15,6 +15,10 @@ grid-row: 3/span 4;
 @media(min-width:1440px){
     grid-row: 3/span 5;
 }
+
+@media(max-width: 750px){
+    margin-bottom: 40px;
+}
 `
 function Libro() {
     return (
