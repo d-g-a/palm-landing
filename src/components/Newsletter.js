@@ -96,6 +96,21 @@ form{
         }
     }
 }
+
+@media(max-width: 320px){
+    form{
+        input{
+            width:140px;
+            &::placeholder{
+                font-size: 8px;
+            }
+        }
+
+        button{ 
+            width: 140px;
+        }
+    }
+}
 `
 
 function Newsletter() {

@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const TitleStyled = styled.div`
-
 color: white;
 padding: 24px;
 display: flex;
@@ -52,16 +51,42 @@ p{
     } 
 }
 
-@media(max-width:410px){
+
+@media(max-width:415px){
     padding: 16px;
     height: 120px;
     h1{
-        font-size:40px;
+        font-size:32px;
     }
     p{
-        font-size:14px;
+        font-size:12px;
     }
 }
+
+@media(max-width: 375px){
+    padding: 12px;
+    height: 120px;
+
+    h1{
+        font-size:30px;
+    }
+    p{
+        font-size:10px;
+    }
+}
+
+@media(max-width: 320px){
+    padding: 12px;
+    height: 120px;
+
+    h1{
+        font-size:24px;
+    }
+    p{
+        font-size:8px;
+    }
+}
+
 `
 
 function Title() {

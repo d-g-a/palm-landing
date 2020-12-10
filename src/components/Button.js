@@ -45,6 +45,12 @@ grid-row: 1/span 1;
     margin-bottom: 40px;
 }
 
+@media(max-width: 320px){
+    a{
+        font-size: 14px;
+    }
+}
+
 `
 
 function Button() {
