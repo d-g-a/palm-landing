@@ -3,20 +3,20 @@ import styled from 'styled-components'
 import ReactPlayer from 'react-player'
 
 const VideoDosStyled = styled.div`
-border-top-right-radius: 15px;
-border-top-left-radius: 15px;
+border-radius: 15px;
 background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456327/taby/palm_2_4_cqgmfn.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-grid-row:9/span 1;
+grid-row:9/span 2;
 
 
 @media(min-width:1440px){
-    grid-row: 10/span 1;
+    grid-row: 10/span 2;
 }
 
 @media(max-width: 750px){
+    margin-bottom:  40px;
     border-radius: 15px;
 }
 

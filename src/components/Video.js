@@ -15,7 +15,12 @@ grid-row:5/span 1;
     grid-row: 5/span 1;
 }
 
+@media(max-width:900px){
+    
+}
+
 @media(max-width: 750px){
+    margin-bottom: 40px;
     border-radius: 15px;
 }
 `
