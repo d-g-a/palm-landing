@@ -63,8 +63,8 @@ function App() {
             <Video url="https://res.cloudinary.com/dieglitter/video/upload/v1607567694/taby/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4"/>
             <Sinopsis className="sinopsis"/>
             <Postalgia className="postalgia"/>
-            <Cita className="cita"/>
             <VideoDos url="https://res.cloudinary.com/dieglitter/video/upload/v1607566370/taby/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1.mp4"/> 
+            <Cita className="cita"/>
             <Ligas className="ligas"/>  
         </div>
        
