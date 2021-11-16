@@ -9,7 +9,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456331/taby/palm_2_g6djpx.jpg");
+background-image: url("https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/palm_textura_1.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;

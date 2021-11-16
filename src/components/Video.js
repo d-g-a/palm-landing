@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import ReactPlayer from 'react-player'
 
 const VideoStyled = styled.div`
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456331/taby/palm_2_2_uhksr1.jpg");
+background-image: url("https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/palm_textura_4.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -32,7 +32,7 @@ function Video({url}) {
                 width="inherit"
                 url={url}
                 playing="false" 
-                loop="true"
+                loop="false"
                 muted="true"
                 controls="true"
                 volume="0.5"

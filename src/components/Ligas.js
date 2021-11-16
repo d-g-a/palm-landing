@@ -10,7 +10,7 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 border-radius: 15px;
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456331/taby/palm_2_2_uhksr1.jpg");
+background-image: url("https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/palm_textura_3.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -28,8 +28,8 @@ a{
         background: -webkit-linear-gradient(#004FE9,#0075FF);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-}
-    }
+        }
+    
 }
 
 p{
@@ -55,7 +55,7 @@ p{
     
 @media(max-width: 750px){
     margin-bottom: 40px;
-}
+    }
 `
 
 function Ligas() {

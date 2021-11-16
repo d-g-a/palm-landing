@@ -23,7 +23,7 @@ grid-row: 3/span 4;
 function Libro() {
     return (
         <LibroStyled>
-            <img className="libro" src="https://res.cloudinary.com/dieglitter/image/upload/v1607123766/taby/libro_icjmjg.jpg" alt="Promesas a la Muerte"/> 
+            <img className="libro" src="https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/libro.jpg" alt="Promesas a la Muerte"/> 
         </LibroStyled>
     )
 }

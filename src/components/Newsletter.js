@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607492757/taby/PosterVenta_6_aivwfr.jpg");
+background-image: url("https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/palm_textura_2.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;

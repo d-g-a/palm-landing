@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player'
 
 const VideoDosStyled = styled.div`
 border-radius: 15px;
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456327/taby/palm_2_4_cqgmfn.jpg");
+background-image: url("https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/palm_textura_2.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -29,7 +29,7 @@ function VideoDos({url}) {
                 width="inherit"
                 url={url}
                 playing="false" 
-                loop="true"
+                loop="false"
                 muted="true"
                 controls="true"
                 volume="0.5"

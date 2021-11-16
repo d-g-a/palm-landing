@@ -60,10 +60,10 @@ function App() {
             <Newsletter className="newsletter"/>
             <Extracto className="extracto"/>
             <Libro className="libro"/>
-            <Video url="https://res.cloudinary.com/dieglitter/video/upload/q_auto/v1607567694/taby/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4"/>
+            <Video url="https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/01_Promesas_a_la_Muerte_Teaser_One_gz57aa.mp4"/>
             <Sinopsis className="sinopsis"/>
             <Postalgia className="postalgia"/>
-            <VideoDos url="https://res.cloudinary.com/aa-cr/video/upload/v1609771208/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1_dynzu9.mp4"/> 
+            <VideoDos url="https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/02_Promesas_a_la_Muerte_Teaser_Two_hoz7b1.mp4"/> 
             <Cita className="cita"/>
             <Ligas className="ligas"/>  
         </div>

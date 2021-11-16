@@ -5,7 +5,7 @@ const ExtractoStyled = styled.div`
 color: white;
 padding: 24px;
 border-radius: 15px;
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456327/taby/palm_2_4_cqgmfn.jpg");
+background-image: url("https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/palm_textura_5.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;

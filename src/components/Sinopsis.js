@@ -5,7 +5,7 @@ const SinopsisStyled = styled.div`
 
 border-radius: 15px;
 padding: 24px;
-background-image: url("https://res.cloudinary.com/dieglitter/image/upload/v1607456331/taby/palm_2_3_nywxd6.jpg");
+background-image: url("https://filedn.eu/lKgCej4LmUqu4jd08olI6Jy/palm_textura_3.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
