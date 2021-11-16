@@ -31,8 +31,9 @@ function Video({url}) {
                 className="player"
                 width="inherit"
                 url={url}
-                playing="false" 
-                loop="false"
+                //light={true}
+                //playing="false" 
+                //loop="false"
                 muted="true"
                 controls="true"
                 volume="0.5"
